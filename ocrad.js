@@ -1,4 +1,3 @@
-var print = console.log;
 var OCRAD = (function(){
 function createOcradInstance(){
 
@@ -65,7 +64,7 @@ if (Module['ENVIRONMENT']) {
 }
 */
 
-ENVIRONMENT_IS_NODE = true;
+ENVIRONMENT_IS_WEB = true;
 
 
 if (ENVIRONMENT_IS_NODE) {
