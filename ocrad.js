@@ -1,3 +1,4 @@
+var print = console.log;
 var OCRAD = (function(){
 function createOcradInstance(){
 
